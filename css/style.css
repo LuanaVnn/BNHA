@@ -1,0 +1,154 @@
+body {
+background-color: #F2FFFC;
+font-family: 'Roboto Condensed', sans-serif;
+line-height: 1.5;
+font-size: 120%;
+
+}
+
+.titulo-principal {
+  font-size: 60px;;
+  text-align: center;
+  background-color: #A20417;
+  color: #FAFFFA;
+  padding: 25px;
+  border-bottom: 10px solid #F45164;
+  font-family: 'Righteous', cursive;
+  text-transform: uppercase;
+}
+
+
+.subtitulo-texto {
+    font-size: 30px;
+    clear: both;
+    font-family: 'Francois One', sans-serif;
+}
+
+p {
+  text-align: justify;
+  margin: 20px 0;
+}
+
+.citação-bio {
+    background-color: #819CDB;
+    border: 10px solid #ADBCDF;
+    padding: 20px;
+    margin: 20px 40px;
+    width: 250px;
+    box-sizing: border-box;
+
+}
+
+.citação-bio p{
+  text-align: center;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.navegacao-site {
+  background-color: #07829c;
+  color: #F2FFFC;
+  text-align:center;
+  padding: 20px;
+  font-family: 'Francois One', sans-serif;
+
+}
+
+.navegacao-site h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-align:center
+
+}
+
+.navegacao-site a {
+  color: inherit;
+  text-transform: lowercase;
+  font-family: 'Francois One', sans-serif;
+
+}
+
+.icones-sociais li {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+
+.rodape-pagina {
+  background-color: #9bc3db;
+  color: #F2FFFC;
+  padding: 20px;
+  clear: both;
+  position:fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+
+
+}
+
+.empresaria {
+  float: right;
+  margin-right: 0;
+}
+
+.diretor {
+  float: left;
+  margin-left: 0;
+}
+
+.minha-foto,
+.navegacao-site {
+    float:right;
+    width: 20%;
+    border-left: 10px solid #F45164;
+    border-bottom: 10px solid #368B9C;
+    box-sizing: border-box;
+  }
+
+.navegacao-site {
+  float: right;
+  clear: right;
+
+
+}
+
+
+main {
+  float: left;
+  width: 80%;
+  padding-bottom: 80px;
+}
+
+.container {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0;
+
+}
+
+.leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #819CDB;
+}
+.portfolio li {
+  border: 8px solid #F45164;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 45%;
+  padding: 16px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.portfolio img {
+    width: 100%;
+}
